@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CSVのS3へのアップロード</title>
+</head>
+<body>
+<input type="file" id="upload" accept="image/*">
+<ul id="uploads"></ul>
+<!-- integrityは、意図せずソースコードが改竄されていないかをチェックするためのハッシュ化されたファイル名のようなもの -->
+<!-- リソースのURLを入れるとハッシュ化できるサービスもあるのでそれを使って出す -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" 
+crossorigin="anonymous"></script>
+<!-- upload.jsを読みに行く -->
+<script src="./upload.js"></script>
+</body>
+</html>
+
